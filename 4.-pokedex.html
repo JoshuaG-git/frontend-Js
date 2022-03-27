@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./pokedex1.css">
+    
+</head>
+<body>
+    <section class = "fondoPoke" >  
+        <h1>Pokedex LaunchX</h1>
+        <div class = "inputPoke">
+            <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
+        </div>
+        <div class = "photoPoke">
+            <img src="./img/pokeball.png" alt="Pokemon" id="pokeImg" width="150px">
+        </div>
+        <div class = "buttonPoke">
+        <button onclick="fetchPokemon()">Obtener Info</button>
+        </div>
+        <div class = "abilityPoke1">
+            <p id="type1">Tipo1</p>
+        </div>
+        <div class = "abilityPoke2">
+            <p id="type2">.</p>
+        </div>
+        <div class = "pokeMovs">
+            <p id="mov1">mov1</p>
+            <p id="mov2">mov2</p>
+            <p id="mov3">mov3</p>
+            <p id="mov4">mov4</p>
+        </div>
+        <div class = "pokeStats">
+            <table>
+                <tr>
+                    <th>&nbsp &nbsp hp &nbsp</th>
+                    <th> &nbsp A</th>
+                    <th> &nbsp &nbsp &nbsp D</th>
+                    <th> &nbsp &nbsp spA</th>
+                    <th> &nbsp spD</th>
+                    <th>&nbsp Spd</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td id="hp">&nbsp</td>
+                    <td id="attack">&nbsp</td>
+                    <td id="defense">&nbsp &nbsp &nbsp</td>
+                    <td id="special-atack">&nbsp &nbsp</td>
+                    <td id="special-defense">&nbsp</td>
+                    <td id="speed">&nbsp</td>
+                </tr>
+            </table>
+        </div>
+</section>
+</body>
+<footer>
+    <script src="./4.-pokedex.js"></script>
+</footer>
+</html>

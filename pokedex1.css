@@ -1,0 +1,57 @@
+.fondoPoke{
+    background-image: url("./img/pokedex.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    height: 800px;
+}
+
+.inputPoke{
+    position: relative;
+    left: 165px;
+    top: 470px;
+}
+
+.photoPoke{
+    position: relative;
+    left: 190px;
+    top: 269px;
+}
+
+.buttonPoke{
+    position: relative;
+    left: 190px;
+    top: 440px;
+}
+
+.abilityPoke1{
+    position: relative;
+    left: 650px;
+    top: 415px;
+    color: white;
+}
+
+.abilityPoke2{
+    position: relative;
+    left: 800px;
+    top: 380px;
+    color: white;
+}
+
+.pokeStats{
+    position: relative;
+    left: 610px;
+    top: 1px;
+    color: white;
+}
+
+.pokeMovs{
+    position: relative;
+    left: 610px;
+    top: -10px;
+    color: white;
+}
+
+h1{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
